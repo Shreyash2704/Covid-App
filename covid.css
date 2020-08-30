@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: aquamarine;
+    height:100%;
+    
+}
+#country{
+    color:red;
+    font-weight:800;
+}
+.group{
+    background-color: rgb(220, 204, 235);
+    
+}
+.group1 , .group2 , .group3, .group4{
+    background-color: rgb(229, 238, 241);
+    padding:10px;
+    margin:10px;
+    height:20vh;
+}
+
+#total , #death,#recover{
+    background-color: rgb(253, 255, 250);
+    height:40px;
+    text-align:center;
+    font-size:30px;
+}
+.group4 p{
+    color:red;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="covid.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid border border-danger mt-5">
+        <div class="header text-center m-5 border-bottom border-primary font-weight-bold">
+            <h1 class="font-weight-normal">Covid-2019-20 <spam class="text-uppercase " id="country"></spam> </h1>
+            
+        </div>
+       
+        <div class="row border border-primary m-1 p-2 group">
+            <div class="col-xl-3 border border-secondary  group1">
+                <h3>TOTAL CASES:</h3>
+                <div  id="total"></div>
+            </div>
+            <div class="col-xl-3 border border-secondary group2">
+                <h3>RECOVERIES:</h3>
+                <div id="recover"></div>
+            </div>
+            <div class=" col-xl-3 border border-secondary group3">
+                <h3>DEATHS:</h3>
+                <div id="death"></div>
+            </div>
+            <div class=" col-xl-4 border border-secondary group4">
+                <p class="font-weight-bold">SEARCH ONLY FOR DIFFERENT COUNTRIES!!</p>
+                <input type="text"
+                       placeholder="search"
+                       id="input"
+                       onchange=""
+                       ><button  class=" button btn btn-sm m-1 btn-primary" >click</button>
+                <p>last update: <spam class="font-weight-bold" id="date"></spam></p>       
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
